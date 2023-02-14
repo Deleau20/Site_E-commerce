@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    padding: 2%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #003F62
+}
+
+.Logo{
+    display: flex;
+    width: 100%;
+    position: relative;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.Logo span{
+    color: orange;
+    text-decoration: none;
+    font-family: 'Sansita Swashed', cursive;
+  
+  }
+
+  .caté{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+    top: 6px;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    position: relative;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+
+  }
+
+  .class{
+    position: relative;
+  }
+  .arrow{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    left: 10px;
+  }
+
+  .caté:hover{
+    text-decoration: none;
+  }
+
+  section{  
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    background-color: rgb(172, 167, 167);
+    position: relative;
+    padding: 10px;
+  }
+
+
+
+  section li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 10px;
+  }
+
+  section a{
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 400;
+
+  } 
+  section a:hover{
+    text-decoration: underline orange 3px;
+     
+  }
+   
+section ul{
+    display: flex;
+    margin: auto 0;
+}
+
+
+  
