@@ -1,0 +1,141 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#partieBleu{
+box-sizing: border-box;
+
+position: absolute;
+width: 600px;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: #003F62;
+border: 1px solid #1B5A7D;
+}
+
+#imageLogo{
+position: absolute;
+width: 600px;
+height: 538px;
+left: 0px;
+top: 22px;
+}
+
+#slogan{
+
+position: absolute;
+width: 600px;
+height: 172px;
+left: 0px;
+top: 439px;
+
+border-width: 4px 0px;
+border-style: solid;
+border-color: #EDA415;
+}
+
+#textSlogan{
+position: absolute;
+width: 600px;
+height: 88px;
+left: 18px;
+top: 15px;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+#partieBlanche{
+position: relative;
+width: 373px;
+height: 49px;
+left: 700px;
+top: 10px;
+}
+
+.number-one{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 230px;
+bottom: 15px;
+background: url(number-one.png);
+transform: rotate(90deg);
+}
+
+.Connexion{
+box-sizing: content-box;
+position: relative;
+width: 200px;
+height: 50px;
+left: 100px;
+padding: 10px;
+border: 1px solid #003F62;
+border-radius: 20px;
+text-align: center; 
+text-decoration: none;
+color: #000000;
+}
+.Connexion:hover{
+    background-color: #EDA415;
+    border: solid #1B5A7D;
+    color: white;
+}
+
+
+
+.cadre{
+position: absolute;
+width: 550px;
+height: 400px;
+left: 650px;
+top: 205px;
+
+border: 1px solid #003F62;
+border-radius: 10px;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+label{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    font-weight: 600;
+    color: #003F62;
+}
+  
+  /* Style pour le bouton */
+  input[type="submit"] {
+    color: white;
+    top: 80px;
+    padding: 10px 20px;
+    border: orange solid;
+    border-radius: 5px;
+    background-color: #003F62;
+    position: relative;
+    left: 350px;
+  }
+  
+
+  
+

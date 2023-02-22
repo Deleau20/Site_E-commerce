@@ -1,0 +1,61 @@
+body{
+    background-color: #003F62;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo{
+    position: relative;
+    bottom: 50px;
+    left: 350px;
+}
+
+.connexion{
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    left: 350px;
+    top: 300px;
+    border: solid orange;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+label{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-weight: 600;
+    color: orange;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+  /* Style pour le bouton */
+  input[type="submit"] {
+    color: white;
+    top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border: orange solid;
+    border-radius: 5px;
+    background-color: #003F62;
+    position: relative;
+    left: 350px;
+  }
+
+  #connexions:hover{
+    background-color: orange;
+    font-weight: bold;
+  }
+
